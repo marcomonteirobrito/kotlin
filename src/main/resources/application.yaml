@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://marcomonteirobrito:marcorei@marco.uc4qo.mongodb.net/
+      database: Dev
+
+jwt:
+  key: ${JWT_KEY}
+  access-token-expiration: 3600000
+  refresh-tokon-expiration: 86400000
